@@ -1,0 +1,114 @@
+
+#wrapper
+{
+	width: 700px;
+	margin: 75px auto ;
+}
+
+#sidebar
+{
+	width: 200px;
+	float: left;
+	margin-right: 55px;
+}
+
+#title
+{
+	font-family: 'Bell MT';
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+#menu
+{
+	height: 580px;
+}
+
+#menu li
+{
+	margin-top: 10px;
+}
+
+.sublist li
+{
+	margin-left: 19px;
+}
+
+#page
+{
+	width: 445px;
+	float: right;
+}
+
+#page-title
+{
+	text-align: right;
+	margin-top: 66px;
+	text-transform: uppercase;
+}
+
+.blocktype-text
+{
+	display: inline-block;
+	min-width: 100px;
+}
+
+#blocklist
+{
+table-layout: table-layout: 
+}
+
+#blocklist li{text-align: justify;}
+//#blocklist li p span {width: 100%; display: inline-block;}
+
+#blocklist .block
+{
+	width: 125px;
+	height: 125px;
+	float: left;
+	margin-left: 34px;
+	margin-top: 34px;
+	
+	overflow: hidden;
+
+}
+
+#blocklist li:nth-child(1),
+#blocklist li:nth-child(4),
+#blocklist li:nth-child(7),
+#blocklist li:nth-child(10)
+{
+	margin-left: 0;
+}
+
+.youtube-thumb {
+	max-height:120%;
+	
+	
+}
+
+
+/* CMS SPECIFIC */
+
+.block-admin-menu {
+
+	float: right;
+	position: absolute;
+	width: 10px;
+}
+
+.block-admin-menu ul{
+	visibility: hidden;
+	position: relative;
+	left: -50px;
+	width: 50px;;
+	
+}
+
+#admin-newpage {
+	position: relative;
+	font-size: smaller;
+	text-align: right;
+}
